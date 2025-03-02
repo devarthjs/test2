@@ -274,14 +274,14 @@ body {
 }
 
 
-#clear-search {
+#clear-search, #clear-search1 {
   background-color: #dc3545;    
 }
 
-#clear-search:hover {
+#clear-search:hover, #clear-search1:hover {
   background-color: #c82333;   
 }
 
-#clear-search:active {
+#clear-search:active, #clear-search1:active {
   background-color: #bd2130;   
 }

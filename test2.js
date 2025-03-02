@@ -87,6 +87,7 @@ const sortByRatingHighToLow = () => {
 const searchButton = document.getElementById('search-button');
 const searchInput = document.getElementById('search-input');
 const clearSearchButton = document.getElementById('clear-search');
+const clearSearchButton1 = document.getElementById('clear-search1');
 
 const searchProducts = async () => {
   const query = searchInput.value.trim();
@@ -162,7 +163,7 @@ document.getElementById('sort-rating').addEventListener('click', sortByRatingHig
 
 searchButton.addEventListener('click', searchProducts);
 clearSearchButton.addEventListener('click', clearSearch);
-
+clearSearchButton1.addEventListener('click', clearSearch);
 
 clearCategoriesButton.addEventListener('click', clearCategories);
 
