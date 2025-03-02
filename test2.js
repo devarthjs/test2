@@ -1,7 +1,7 @@
 const apiURL = 'https://dummyjson.com/products?limit=15';
 const productGrid = document.getElementById('product-grid');
 let products = [];
-let selectedCategory = null; // Track the selected category
+let selectedCategory = null; 
 
 const fetchProducts = async () => {
   try {
