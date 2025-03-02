@@ -100,6 +100,10 @@ const searchProducts = async () => {
 
 
 const clearSearch = () => {
+  const radioButtons = document.querySelectorAll('input[type="radio"][name="category"]');
+  radioButtons.forEach(button => {
+    button.checked = false;  
+  });
   searchInput.value = '';
   fetchProducts();
 };
