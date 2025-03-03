@@ -108,6 +108,7 @@ const clearSearch = () => {
     button.checked = false;  
   });
   searchInput.value = '';
+  selectedCategory = null;
   fetchProducts();
 };
 
@@ -156,7 +157,7 @@ const clearCategories = () => {
   radioButtons.forEach(button => {
     button.checked = false;  
   });
-  selectedCategory = null; // Reset the selected category
+  selectedCategory = null; 
   fetchProducts();
 };
 
